@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Tenor Sans" sans-serif;
+}
+
+#header {
+  padding: 30px 0 15px 0;
+  border-bottom: 1px solid dimgray;
+}
+#header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header__nav a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  margin: 0 15px 0;
+}
+#header .header__nav a:hover {
+  border-bottom: 2px solid dodgerblue;
+}
+
+#hero {
+  margin-top: 50px;
+}
+#hero .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero .hero__text h1 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 429px;
+}
+#hero .hero__text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+  width: 419px;
+  margin: 20px 0 20px 0;
+}
+#hero .hero__text h4 {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#about {
+  margin-top: 50px;
+}
+#about .about {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+#about .about__border {
+  width: 1220px;
+  border-bottom: 2px solid dimgray;
+  margin-top: 100px;
+}
+#about .about__blok-1 h4 {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #999999;
+}
+#about .about__blok-1 h1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: black;
+  width: 347px;
+  margin: 20px 0 25px 0;
+}
+#about .about__blok-1 h3 {
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+#about .about__blok-2 h4 {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #999999;
+}
+#about .about__blok-2 h1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: black;
+  width: 347px;
+  margin: 20px 0 25px 0;
+}
+#about .about__blok-2 h3 {
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+#about .about__blok-3 h4 {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #999999;
+  margin: 0 0 20px 0;
+}
+#about .about__blok-3 h1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: black;
+  width: 347px;
+  margin: 20px 0 25px 0;
+}
+#about .about__blok-3 h3 {
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 0 15px 0;
+}
+#about .about .about__blok-4 h5 {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #999999;
+}
+#about .about .about__blok-4 h1 {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 327px;
+  margin: 15px 0 20px 0;
+}
+#about .about .about__blok-4 h4 {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+#about .about .about__blok-5 h5 {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #999999;
+}
+#about .about .about__blok-5 h1 {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 357px;
+  margin: 10px 0 20px 0;
+}
+#about .about .about__blok-5 h4 {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+#about .about .about__blok-6 h5 {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #999999;
+}
+#about .about .about__blok-6 h1 {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 327px;
+  margin: 10px 0 20px 0;
+}
+#about .about .about__blok-6 h4 {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#letast .letast {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+#letast .letast__blok-1 h5 {
+  font-weight: 400;
+  font-size: 10px;
+  color: #999999;
+}
+#letast .letast__blok-1 h3 {
+  font-weight: 400;
+  font-size: 10px;
+  color: #999999;
+}
+#letast .letast__blok-1 h1 {
+  width: 276px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 20px 0 20px 0;
+}
+#letast .letast__blok-1 h4 {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+#letast .letast__blok-2 h1 {
+  width: 276px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 20px 0 20px 0;
+}
+#letast .letast__blok-2 h4 {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+#letast .letast__blok-2 h5 {
+  font-weight: 400;
+  font-size: 10px;
+  color: #999999;
+}
+#letast .letast__blok-3 h1 {
+  width: 276px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 20px 0 20px 0;
+}
+#letast .letast__blok-3 h4 {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+#letast .letast__blok-3 h5 {
+  font-weight: 400;
+  font-size: 10px;
+  color: #999999;
+}
+#letast .letast__blok-4 h1 {
+  width: 276px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 20px 0 20px 0;
+}
+#letast .letast__blok-4 h4 {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+#letast .letast__blok-4 h5 {
+  font-weight: 400;
+  font-size: 10px;
+  color: #999999;
+}
+
+.letest {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.letest__blok-5 h1 {
+  font-weight: 400;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 244px;
+  margin: 20px 0 20px 0;
+}
+.letest__blok-5 h5 {
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999999;
+}
+.letest__blok-5 h4 {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.letest__blok-6 h1 {
+  font-weight: 400;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 244px;
+  margin: 20px 0 20px 0;
+}
+.letest__blok-6 h5 {
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999999;
+}
+.letest__blok-6 h4 {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.letest__blok-7 h1 {
+  font-weight: 400;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 244px;
+  margin: 20px 0 20px 0;
+}
+.letest__blok-7 h5 {
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999999;
+}
+.letest__blok-7 h4 {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.letest__blok-8 h1 {
+  font-weight: 400;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 244px;
+  margin: 20px 0 20px 0;
+}
+.letest__blok-8 h5 {
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999999;
+}
+.letest__blok-8 h4 {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.letest__btn button {
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 205px;
+  height: 54px;
+}
+
+/*# sourceMappingURL=style.css.map */
